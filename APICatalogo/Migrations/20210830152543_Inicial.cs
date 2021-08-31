@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace APICatalago.Migrations
+namespace APICatalogo.Migrations
 {
     public partial class Inicial : Migration
     {

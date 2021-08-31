@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace APICatalago.Models
+namespace APICatalogo.Models
 {
     [Table("Categorias")]
     public class Categoria

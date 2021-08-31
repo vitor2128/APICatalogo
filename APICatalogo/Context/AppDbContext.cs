@@ -1,11 +1,12 @@
-﻿using APICatalago.Models;
+﻿using APICatalogo.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace APICatalago.Context
+namespace APICatalogo.Context
 {
     public class AppDbContext : DbContext
     {
@@ -15,9 +16,9 @@ namespace APICatalago.Context
 
         }
 
-        public DbSet<Categoria> Caterias { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
 
-        public DbSet<Produto> Produto { get; set; }
-
+        public DbSet<Produto> Produtos { get; set; }
+        //public ActionResult<IEnumerable<Categoria>> Categorias { get; internal set; }
     }
 }

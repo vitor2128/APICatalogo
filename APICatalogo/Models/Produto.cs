@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace APICatalago.Models
+namespace APICatalogo.Models
 {
     [Table("Produtos")]
     public class Produto
